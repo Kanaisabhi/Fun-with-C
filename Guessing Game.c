@@ -12,6 +12,7 @@ int main(void){
             printf("please enter you guessed no.: ");
             scanf("%d", &guess);
             guessCount--;
+            printf("You have %d count limit left\n", guessCount);
         }else if (guessCount == guessLimit) {
             printf("You are out of guesses!\n");
             break;
