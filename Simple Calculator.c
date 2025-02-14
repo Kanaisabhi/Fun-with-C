@@ -29,6 +29,8 @@ int main(void) {
     } else if (op == '/')
     {
         printf("%f" , num1 / num2);
+    } else {
+        printf("Invalid Operator");
     }
     
     return 0;
