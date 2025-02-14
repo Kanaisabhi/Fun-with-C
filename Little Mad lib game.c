@@ -12,7 +12,7 @@ int main(void) {
     scanf("%s" , color);
     printf("Enter plural noun : ");
     scanf("%s" , pluralNoun);
-    printf("Enter celebrity name: ");
+    printf("Enter celebrity full name: ");
     scanf("%s%s", celebrity1, celebrity2);
 
     printf("Roses are %s \n", color);
